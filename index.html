@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Projeto - Jujutsu Kaisen</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oxanium:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="stylesheet" href="./src/css/responsivo.css">
+  </head>
+  <body>
+    <header class="cabecalho">
+      <img class="logo" src="./src/imagens/logo.png"" alt="Logo Jujutsu Kaisen" width="296px" height="152px">
+    </header>
+
+    <main class="selecao-de-personagens">
+      <section class="personagens">
+        <h1 class="titulo">Selecione um personagem</h1>
+
+        <ul class="lista-de-personagens">
+          <li class="personagem selecionado" id="gojo" data-name="Satoru Gojo" data-description="    Satoru Gojo é um dos principais protagonistas da série Jujutsu Kaisen. Ele é um feiticeiro de jujutsu de grau especial e amplamente reconhecido como o mais forte do mundo. Satoru é o orgulho da Família Gojo, a primeira pessoa a herdar o Sem Limites e os Seis Olhos em quatrocentos anos.">
+            <img src="src/imagens/gojo-icon.png" alt="Personagem Gojo Satoru" />
+          </li>
+
+          <li class="personagem" id="itadori" data-name="Yuji Itadori" data-description="Yuji Itadori é o protagonista principal da série Jujutsu Kaisen. Ele é filho de Jin Itadori e neto de Wasuke Itadori, que estava vivendo uma vida normal até encontrar Megumi e comer um dos dedos de Sukuna. Depois de se tornar o navio de Sukuna, Yuji começou a frequentar o Tokyo Jujutsu High ao lado de Megumi e Nobara como alunos do primeiro ano."> 
+            <img src="src/imagens/itadori-icon.png" alt="Personagem Yuji Itadori" />
+          </li>
+
+          <li class="personagem" id="maki" data-name="Maki Zenin" data-description="Maki Zenin é um personagem coadjuvante importante em Jujutsu Kaisen e um dos principais protagonistas de sua prequela, Jujutsu Kaisen 0: Jujutsu High. Atualmente, ela está no segundo ano no Tokyo Jujutsu High. Filha de Ogi Zenin e irmã gêmea mais velha de Mai Zenin, Maki nasceu na Família Zenin.">
+            <img src="src/imagens/maki-icon.png" alt="Personagem Maki Zenin" />
+          </li>
+
+          <li class="personagem" id="megumi" data-name="Megumi Fushiguro" data-description="Megumi Fushiguro é o deuteragonista da série Jujutsu Kaisen. Ele é um feiticeiro de jujutsu de grau 2 e aluno do primeiro ano no Tokyo Jujutsu High ao lado de Yuji Itadori e Nobara Kugisaki. Megumi é o meio-irmão de Tsumiki Fushiguro e como filho de Toji Fushiguro, Megumi também é descendente da Família Zenin.">
+            <img src="src/imagens/megumi-icon.png" alt="Personagem Megumi Fushiguro" />
+          </li>
+
+          <li class="personagem" id="nobara" data-name="Nobara Kugisaki" data-description="Nobara Kugisaki é o tritagonista da série Jujutsu Kaisen. Ela é uma estudante do primeiro ano e feiticeira de jujutsu da 3ª série no Tokyo Jujutsu High estudando com Satoru Gojo ao lado de Yuji e Megumi.">
+            <img src="src/imagens/nobara-icon.png" alt="Personagem Nobara" />
+          </li>
+
+          <li class="personagem" id="panda" data-name="Panda" data-description="Panda é um personagem coadjuvante importante em Jujutsu Kaisen e um dos principais protagonistas de sua prequela, Jujutsu Kaisen 0: Jujutsu High. Panda não é um panda real, ele é um cadáver amaldiçoado mutante abrupto criado por Masamichi Yaga. Ele frequenta o Jujutsu High como um estudante do segundo ano junto com Maki, Toge e Yuta.">
+            <img src="src/imagens/panda-icon.png" alt="Personagem Panda" />
+          </li>
+
+          <li class="personagem" id="toge" data-name="Toge Inumaki" data-description="Toge Inumaki é um personagem coadjuvante importante em Jujutsu Kaisen e um dos principais protagonistas de sua prequela, Jujutsu Kaisen 0: Jujutsu High. Ele é um descendente do clã Inumaki e herdou o discurso amaldiçoado do clã, para o qual ele desenvolveu seu próprio padrão de fala único, a fim de evitar amaldiçoar os outros">
+            <img src="src/imagens/toge-icon.png" alt="Personagem Toge" />
+          </li>
+
+          <li class="personagem" id="yuta" data-name="Yuta Okkotsu" data-description="Yuta Okkotsu é um personagem coadjuvante importante na série Jujutsu Kaisen e o protagonista principal de sua série prequel, Jujutsu Kaisen 0: Jujutsu High. Ele foi inicialmente um humano amaldiçoado de grau especial assombrado por sua amiga de infância, Rika Orimoto. Satoru Gojo orientou Yuta e o matriculou no Tokyo Jujutsu High.">
+            <img src="src/imagens/yuta-icon.png" alt="Personagem Yuta Okkotsu" />
+          </li>
+
+        </ul>
+      </section>
+      <section class="personagem-selecionado">
+        <img
+          class="personagem-grande"
+          src="./src/imagens/gojo-imagem-grande.png"
+          alt="Personagem Selecionado"
+        />
+
+        <div class="informacoes-personagem">
+          <h2 class="nome-personagem" id="nome-personagem">Satoru Gojo</h2>
+          <p class="descricao-personagem" id="descricao-personagem">
+            Satoru Gojo é um dos principais protagonistas da série Jujutsu Kaisen. Ele é um feiticeiro de jujutsu de grau especial e amplamente reconhecido como o mais forte do mundo. Satoru é o orgulho da Família Gojo, a primeira pessoa a herdar o Sem Limites e os Seis Olhos em quatrocentos anos.
+          </p>
+        </div>
+      </section>
+    </main>
+  </body>
+  <script src="src/js/index.js"></script>
+</html>
